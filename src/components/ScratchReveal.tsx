@@ -31,7 +31,7 @@ export function ScratchReveal({ children }: { children: React.ReactNode }) {
 
     let drawing = false;
     let moves = 0;
-    const pos = (e: PointerEvent) => {
+    const pos = (e: PointerEvent): [number, number] => {
       const r = c.getBoundingClientRect();
       return [e.clientX - r.left, e.clientY - r.top];
     };
