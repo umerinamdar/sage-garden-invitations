@@ -78,10 +78,10 @@ function Invitation() {
           <img src={sealedBg} alt="" width={1536} height={1024} className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-foreground/10 via-transparent to-foreground/30" />
           <div className="absolute left-1/2 top-[49%] -translate-x-1/2 -translate-y-1/2">
-            <span className="animate-pulse-ring absolute inset-0 rounded-full border border-paper-light/70" />
-            <button onClick={open} aria-label="Open the invitation" className="seal-btn relative block w-[min(30vw,30vh,190px)] min-w-[110px]">
-              <img src={waxSeal} alt="" width={816} height={816} className="w-full" />
-              <span className="absolute inset-0 flex items-center justify-center font-display text-[clamp(1.1rem,5vw,2.2rem)] italic text-highlight [text-shadow:0_1px_0_var(--scratch-ink)]">
+            <button onClick={open} aria-label="Open the invitation" className="seal-btn relative block w-[min(42vw,26vh,220px)] min-w-[150px]">
+              <span className="animate-pulse-ring absolute inset-[6%] rounded-full border border-paper-light" />
+              <img src={waxSeal} alt="" width={816} height={816} className="block w-full" />
+              <span className="absolute inset-0 flex items-center justify-center font-display text-[clamp(1.1rem,5vw,2.2rem)] font-medium italic text-scratch-foil [text-shadow:0_1px_0_var(--scratch-ink),0_-1px_0_var(--paper-light)]">
                 {COUPLE.a[0]}&nbsp;&amp;&nbsp;{COUPLE.b[0]}
               </span>
             </button>
