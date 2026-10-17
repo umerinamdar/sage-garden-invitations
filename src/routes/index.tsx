@@ -77,7 +77,7 @@ function Invitation() {
         >
           <img src={sealedBg} alt="" width={1536} height={1024} className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-foreground/10 via-transparent to-foreground/30" />
-          <div className="absolute left-1/2 top-[49%] -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute left-1/2 top-[52%] -translate-x-1/2 -translate-y-1/2">
             <button onClick={open} aria-label="Open the invitation" className="seal-btn relative block w-[min(42vw,26vh,220px)] min-w-[150px]">
               <span className="animate-pulse-ring absolute inset-[6%] rounded-full border border-paper-light" />
               <img src={waxSeal} alt="" width={816} height={816} className="block w-full" />
